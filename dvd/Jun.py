@@ -30,7 +30,7 @@ for row in sorted_data:
 print("data dictionary",len(data_dict))
 # # # Create a separate file for each unique value in the first column
 new_wb = openpyxl.Workbook()
-new_sheet = new_wb.active
+new_sheet = new_wb.active 
 for value, data in data_dict.items():
     # Create a new workbook and worksheet
     print('Creating new workbook and worksheet for', data[0][0])
